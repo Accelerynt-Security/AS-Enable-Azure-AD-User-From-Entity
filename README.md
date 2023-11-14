@@ -52,27 +52,27 @@ From the "**Select an API**" pane, click the "**Microsoft APIs**" tab and select
 
 Click "**Application permissions**", then scroll down to the "**User**" tab.
 
-![Azure_AD_Disable_User_App_Registration_6](Images/Azure_AD_Disable_User_App_Registration_6.png)
+![Azure_AD_Enable_User_App_Registration_6](Images/Azure_AD_Enable_User_App_Registration_6.png)
 
 Click the "**User.ManageIdentities.All**" and "**User.EnableDisableAccount.All**" options, then click "**Add permission**".
 
-![Azure_AD_Disable_User_App_Registration_7](Images/Azure_AD_Disable_User_App_Registration_7.png)
+![Azure_AD_Enable_User_App_Registration_7](Images/Azure_AD_Enable_User_App_Registration_7.png)
 
 Admin consent will be needed before your app registration can use the assigned permissions. Click "**Grant admin consent for (name)**".
 
-![Azure_AD_Disable_User_App_Registration_8](Images/Azure_AD_Disable_User_App_Registration_8.png)
+![Azure_AD_Enable_User_App_Registration_8](Images/Azure_AD_Enable_User_App_Registration_8.png)
 
 Lastly, a client secret will need to be generated for the app registration. From the left menu blade, click "**Certificates & secrets**" under the "**Manage**" section. Then, click "**New client secret**".
 
-![Azure_AD_Disable_User_App_Registration_9](Images/Azure_AD_Disable_User_App_Registration_9.png)
+![Azure_AD_Enable_User_App_Registration_9](Images/Azure_AD_Enable_User_App_Registration_9.png)
 
 Enter a description and select the desired expiration date, then click "**Add**".
 
-![Azure_AD_Disable_User_App_Registration_10](Images/Azure_AD_Disable_User_App_Registration_10.png)
+![Azure_AD_Enable_User_App_Registration_10](Images/Azure_AD_Enable_User_App_Registration_10.png)
 
 Copy the value of the secret that is generated, as this will be needed for [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Disable-Azure-AD-User-From-Entity#create-an-azure-key-vault-secret).
 
-![Azure_AD_Disable_User_App_Registration_11](Images/Azure_AD_Disable_User_App_Registration_11.png)
+![Azure_AD_Enable_User_App_Registration_11](Images/Azure_AD_Enable_User_App_Registration_11.png)
 
 
 #### Create an Azure Key Vault Secret
