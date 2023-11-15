@@ -22,6 +22,9 @@ The following items are required under the template settings during deployment:
 * A Microsoft Azure Active Directory [app registration](https://github.com/Accelerynt-Security/AS-Enable-Azure-AD-User-From-Entity#create-an-app-registration) with admin consent granted for "**User.ManageIdentities.All**" and "**User.EnableDisableAccount.All**" in the "**Microsoft Graph**" API
 * An [Azure key vault secret](https://github.com/Accelerynt-Security/AS-Enable-Azure-AD-User-From-Entity#create-an-azure-key-vault-secret) containing your app registration client secret
 
+> **Note**
+> This playbook uses an HTTPS request rather than the built in Azure AD connector to update users, which is why the app registration is required. A version using the Azure AD connector can be found here: https://github.com/Accelerynt-Security/AS-Azure-AD-Enable-User.
+
 
 # 
 ### Setup
