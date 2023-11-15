@@ -9,6 +9,7 @@ For any technical questions, please contact info@accelerynt.com
 This playbook is intended to be run from a Microsoft Sentinel entity. It will enable the Azure AD user account associated with the Microsoft Sentinel account entity.
 
 ![Azure_AD_Enable_User_Demo_1](Images/Azure_AD_Enable_User_Demo_1.png)
+![Azure_AD_Enable_User_Demo_2](Images/Azure_AD_Enable_User_Demo_2.png)
 
 > **Note**
 > This playbook is meant to be used in tandem with https://github.com/Accelerynt-Security/AS-Disable-Azure-AD-User-From-Entity. The "**Create an App Registration**" and "**Create an Azure Key Vault Secret**" setup steps only need to be completed once, as both playbooks share the same requirements.
