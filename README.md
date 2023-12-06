@@ -101,7 +101,7 @@ Once your secret has been added to the vault, navigate to the "**Access policies
 
 To configure and deploy this playbook:
 
-Open your browser and ensure you are logged into your Microsoft Sentinel workspace. In a separate tab, open the link to our playbook on the Arbala Security GitHub Repository:
+Open your browser and ensure you are logged into your Microsoft Sentinel workspace. In a separate tab, open the link to our playbook on the Accelerynt Security GitHub Repository:
 
 https://github.com/Accelerynt-Security/AS-Enable-Azure-AD-User-From-Entity
 
